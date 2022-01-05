@@ -14,9 +14,9 @@ terraform {
   required_version = ">= 0.14.0"
 
   cloud {
-    organization = "new-org"
+    organization = "test-org-20220104"
     workspaces {
-      tags = ["hoge"]
+      tags = ["fuga"]
     }
   }
 }
